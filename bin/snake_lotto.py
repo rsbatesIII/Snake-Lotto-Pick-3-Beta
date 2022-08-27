@@ -22,7 +22,7 @@ while True:
 
     clear_console()
 
-    print(player + ", you have " ,wallet, " tokens in your wallet.")
+    print(player + ", you have \033[0;32;40m" ,wallet,"\033[0;0m tokens in your wallet.")
 
     #pay 100 tokens to play
     print("Lotto tickets cost 100 tokens each to pick 3 numbers. \nYou win 300 tokens for every winning number!")
@@ -107,7 +107,7 @@ while True:
         print("You win 300 tokens!")
         wallet = wallet + 300
 
-    print("Your Wallet balance is " ,wallet, "tokens")
+    print("Your Wallet balance is \033[0;32;40m" ,wallet,"\033[0;0m tokens")
 
     #game ends if player token wallet empty 
 
