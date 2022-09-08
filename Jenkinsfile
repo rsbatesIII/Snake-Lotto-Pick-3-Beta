@@ -24,5 +24,18 @@ pipeline {
                 echo 'deploy app to staging...'
             }
         }
+        
+        
+    }
+    post {
+        always {
+            //
+        }
+        success {
+
+        }
+        failure {
+            
+        }
     }   
 }
