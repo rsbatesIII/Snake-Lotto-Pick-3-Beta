@@ -32,35 +32,35 @@ while True:
 
     while True:
         try:
-            pick1 = int(input("Pick your first number: [0-10]"))
+            pick1 = int(input("Pick your first number: [0-100]"))
         except ValueError:
             print('Please input a number only!')
         else:
-            if 0 <= pick1 <= 10:
+            if 0 <= pick1 <= 100:
                 break
             else:
-                print('Number must be between 0 and 10!')
+                print('Number must be between 0 and 100!')
 
     while True:
         try:
-            pick2 = int(input("Pick your second number: [0-10]"))
+            pick2 = int(input("Pick your second number: [0-100]"))
         except ValueError:
             print('Please input a number only!')
         else:
-            if 0 <= pick2 <= 10:
+            if 0 <= pick2 <= 100:
                 break
             else:
-                print('Number must be between 0 and 10!')
+                print('Number must be between 0 and 100!')
     while True:
         try:
-            pick3 = int(input("Pick your third number: [0-10]"))
+            pick3 = int(input("Pick your third number: [0-100]"))
         except ValueError:
             print('Please input a number only!')
         else:
-            if 0 <= pick1 <= 10:
+            if 0 <= pick1 <= 100:
                 break
             else:
-                print('Number must be between 0 and 10!')
+                print('Number must be between 0 and 100!')
 
     clear_console()
 
@@ -82,9 +82,9 @@ while True:
     clear_console()
 
     #algo selects 3 random numbers
-    draw1 = randint(0,10) 
-    draw2 = randint(0,10) 
-    draw3 = randint(0,10) 
+    draw1 = randint(0,100) 
+    draw2 = randint(0,100) 
+    draw3 = randint(0,100) 
 
 
 
