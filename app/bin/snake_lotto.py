@@ -1,4 +1,5 @@
 #Snake Lotto Pick 3🐍 
+#built by Russell Bates https://github.com/rsbatesIII
 
 #clear console
 import os
